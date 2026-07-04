@@ -2,7 +2,7 @@
 
 ## **📌 Project Overview**
 
-This project presents a comprehensive **Exploratory Data Analysis (EDA)** and **Statistical Investigation** on a synthetic customer dataset. The objective is to uncover customer behavior, spending patterns, and demographic trends using Python and statistical techniques. Through descriptive statistics, data visualization, correlation analysis, and hypothesis-driven exploration, the project transforms raw customer data into meaningful business insights.
+This project presents a comprehensive **Exploratory Data Analysis (EDA)** and **Statistical Investigation** on a synthetic customer dataset. The analysis focuses on understanding customer demographics, spending behavior, and interaction patterns using Python and statistical techniques. The project demonstrates how data can be transformed into meaningful business insights through descriptive statistics and visualization.
 
 ---
 
@@ -10,9 +10,9 @@ This project presents a comprehensive **Exploratory Data Analysis (EDA)** and **
 
 - Analyze customer demographics and spending behavior.
 - Perform descriptive statistical analysis.
-- Visualize customer trends using multiple chart types.
+- Visualize customer trends using different chart types.
 - Explore relationships between customer attributes.
-- Generate meaningful business insights through data analysis.
+- Identify meaningful business insights from the dataset.
 
 ---
 
@@ -30,7 +30,7 @@ This project presents a comprehensive **Exploratory Data Analysis (EDA)** and **
 
 ## **📂 Dataset Information**
 
-The dataset contains **10,675 customer records** with the following attributes:
+The dataset contains **10,675 customer records** with the following features:
 
 - Customer ID
 - Name
@@ -61,7 +61,7 @@ The dataset contains **10,675 customer records** with the following attributes:
 - Boxplots
 - Scatter Plot
 - Bar Charts
-- KDE Distribution Plots
+- KDE Plots
 - Correlation Heatmap
 
 ### **Comparative Analysis**
@@ -78,58 +78,58 @@ The dataset contains **10,675 customer records** with the following attributes:
 
 ### **Age Distribution**
 
-![Age Histogram](Images/age_histogram.png)
+![Age Histogram](images/age_histogram.png)
 
 ### **Age Boxplot**
 
-![Age Boxplot](Images/age_boxplot.png)
+![Age Boxplot](images/age_boxplot.png)
 
 ### **Monthly Spend Distribution**
 
-![Monthly Spend Histogram](Images/monthly_spend_histogram.png)
+![Monthly Spend Histogram](images/monthly_spend_histogram.png)
 
 ### **Monthly Spend Boxplot**
 
-![Monthly Spend Boxplot](Images/monthly_spend_boxplot.png)
+![Monthly Spend Boxplot](images/monthly_spend_boxplot.png)
 
-### **Average Monthly Spend by Gender**
+### **Average Monthly Spending by Gender**
 
-![Gender Spending](Images/gender_average_spending.png)
+![Gender Average Spending](images/gender_average_spending.png)
 
-### **Average Monthly Spend by Education**
+### **Average Monthly Spending by Education**
 
-![Education Spending](Images/education_average_spending.png)
+![Education Average Spending](images/education_average_spending.png)
 
 ### **Total Spending by State**
 
-![State Spending](Images/state_total_spending.png)
+![State Total Spending](images/state_total_spending.png)
 
 ### **Age vs Monthly Spend**
 
-![Scatter Plot](Images/age_vs_monthly_spend_scatter.png)
+![Age vs Monthly Spend](images/age_vs_monthly_spend_scatter.png)
 
 ### **Spending Distribution by Education**
 
-![Education KDE](Images/education_spending_kde.png)
+![Education Spending KDE](images/education_spending_kde.png)
 
 ### **Spending Distribution by Marital Status**
 
-![Marital Status KDE](Images/marital_status_spending_kde.png)
+![Marital Status Spending KDE](images/marital_status_spending_kde.png)
 
 ### **Correlation Heatmap**
 
-![Correlation Heatmap](Images/correlation_heatmap.png)
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 ---
 
 ## **🔍 Key Insights**
 
-- Monthly spending follows a **right-skewed distribution**, indicating a small number of high-spending customers.
-- Customer ages are distributed fairly evenly across the dataset.
-- Average spending remains relatively consistent across different gender groups.
-- Customers with a **Master's degree** exhibit slightly higher average monthly spending.
+- Monthly spending exhibits a **right-skewed distribution**, indicating the presence of a small number of high-spending customers.
+- Customer age is broadly distributed across the dataset.
+- Average monthly spending is relatively consistent across different gender groups.
+- Customers with higher education levels show slightly higher average spending.
 - Spending varies across different states, highlighting regional purchasing trends.
-- Numerical variables display weak linear correlations, suggesting that customer spending is influenced by multiple factors.
+- Correlation analysis indicates weak relationships among the numerical variables.
 
 ---
 
@@ -138,7 +138,7 @@ The dataset contains **10,675 customer records** with the following attributes:
 ```text
 Customer-Insights-Statistical-Investigation/
 │
-├── Images/
+├── images/
 │   ├── age_histogram.png
 │   ├── age_boxplot.png
 │   ├── monthly_spend_histogram.png
@@ -164,22 +164,22 @@ Customer-Insights-Statistical-Investigation/
 - Descriptive Statistics
 - Data Visualization
 - Statistical Analysis
+- Python Programming
 - Customer Analytics
 - Business Intelligence
-- Python Programming
 - Data Interpretation
 
 ---
 
 ## **📌 Business Outcome**
 
-The analysis provides valuable insights into customer demographics, spending behavior, and purchasing trends. These findings can help businesses better understand customer segments, optimize marketing strategies, and support data-driven decision-making.
+The project uncovers valuable insights into customer demographics and spending behavior. These findings can help businesses better understand customer segments, identify purchasing trends, and support data-driven decision-making.
 
 ---
 
 ## **⭐ Conclusion**
 
-This project demonstrates the practical application of **Python, Statistics, and Exploratory Data Analysis** to solve real-world business problems. By combining statistical methods with effective visualizations, the project delivers meaningful insights into customer behavior and showcases essential data analytics skills.
+This project demonstrates the practical application of **Python, Statistics, and Exploratory Data Analysis** to analyze customer behavior and generate actionable business insights. It showcases a complete analytical workflow, from data exploration to visualization and interpretation, making it a strong addition to a data analytics portfolio.
 
 ---
 
