@@ -19,13 +19,13 @@ This project performs **Exploratory Data Analysis (EDA)** and **Statistical Anal
 
 ## **🛠️ Technologies Used**
 
-- **Python**
-- **Pandas**
-- **NumPy**
-- **Matplotlib**
-- **Seaborn**
-- **SciPy**
-- **Jupyter Notebook**
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SciPy
+- Jupyter Notebook
 
 ---
 
@@ -48,20 +48,13 @@ The dataset contains **10,675 customer records** with demographic and behavioral
 
 ## **📊 Analysis Performed**
 
-### **1. Data Exploration**
-- Dataset overview
-- Data types
-- Missing value analysis
-- Unique value inspection
-
-### **2. Descriptive Statistics**
+### **Descriptive Statistics**
 - Mean
 - Median
 - Mode
 - Standard Deviation
-- Summary Statistics
 
-### **3. Exploratory Data Analysis (EDA)**
+### **Exploratory Data Analysis (EDA)**
 - Histograms
 - Boxplots
 - Scatter Plot
@@ -69,44 +62,58 @@ The dataset contains **10,675 customer records** with demographic and behavioral
 - Correlation Heatmap
 - Bar Charts
 
-### **4. Customer Segmentation Analysis**
-- Gender-wise Spending
-- Education-wise Spending
-- State-wise Spending
-- Age Distribution
-- Monthly Spending Distribution
-
-### **5. Statistical Analysis**
-- Correlation Matrix
-- Group-wise Statistical Comparison
-- Spending Trend Analysis
+### **Statistical Analysis**
+- Correlation Analysis
+- Group-wise Comparison
+- Spending Pattern Analysis
 
 ---
 
 ## **📈 Key Visualizations**
 
-- 📊 Histogram of Age
-- 📊 Histogram of Monthly Spend
-- 📦 Boxplot of Age
-- 📦 Boxplot of Monthly Spend
-- 📉 Scatter Plot (Age vs Monthly Spend)
-- 📊 Gender-wise Average Spending
-- 📊 Education-wise Average Spending
-- 📊 State-wise Total Spending
-- 📈 KDE Plot by Education
-- 📈 KDE Plot by Marital Status
-- 🔥 Correlation Heatmap
+### **Age Distribution**
+![Age Histogram](screenshots/age_histogram.png)
+
+### **Age Boxplot**
+![Age Boxplot](screenshots/age_boxplot.png)
+
+### **Monthly Spend Distribution**
+![Monthly Spend Histogram](screenshots/monthly_spend_histogram.png)
+
+### **Monthly Spend Boxplot**
+![Monthly Spend Boxplot](screenshots/monthly_spend_boxplot.png)
+
+### **Average Spending by Gender**
+![Gender Average Spending](screenshots/gender_average_spending.png)
+
+### **Average Spending by Education**
+![Education Average Spending](screenshots/education_average_spending.png)
+
+### **Total Spending by State**
+![State Spending](screenshots/state_total_spending.png)
+
+### **Age vs Monthly Spend**
+![Scatter Plot](screenshots/age_vs_monthly_spend_scatter.png)
+
+### **Spending Distribution by Education**
+![Education KDE](screenshots/education_spending_kde.png)
+
+### **Spending Distribution by Marital Status**
+![Marital Status KDE](screenshots/marital_status_spending_kde.png)
+
+### **Correlation Heatmap**
+![Correlation Heatmap](screenshots/correlation_heatmap.png)
 
 ---
 
 ## **🔍 Key Insights**
 
-- Monthly spending follows a **right-skewed distribution**, indicating a small group of high-spending customers.
-- Customer age is fairly evenly distributed across the dataset.
-- Spending patterns remain relatively consistent across gender groups.
-- Customers with a **Master's degree** show slightly higher average monthly spending.
-- Spending varies across different states, highlighting regional purchasing differences.
-- Numerical variables exhibit **weak linear correlations**, suggesting customer spending is influenced by multiple factors.
+- Monthly spending exhibits a right-skewed distribution with a small group of high-spending customers.
+- Customer ages are broadly distributed across the dataset.
+- Average monthly spending is relatively consistent across gender groups.
+- Customers with Master's degrees have a slightly higher average monthly spend.
+- Spending differs across states, indicating regional purchasing variations.
+- Numerical variables show weak correlations, suggesting spending behavior is influenced by multiple factors.
 
 ---
 
@@ -115,16 +122,22 @@ The dataset contains **10,675 customer records** with demographic and behavioral
 ```text
 Customer-Insights-Statistical-Investigation/
 │
-├── Stats_mini_project.ipynb
+├── screenshots/
+│   ├── age_histogram.png
+│   ├── age_boxplot.png
+│   ├── monthly_spend_histogram.png
+│   ├── monthly_spend_boxplot.png
+│   ├── gender_average_spending.png
+│   ├── education_average_spending.png
+│   ├── state_total_spending.png
+│   ├── age_vs_monthly_spend_scatter.png
+│   ├── education_spending_kde.png
+│   ├── marital_status_spending_kde.png
+│   └── correlation_heatmap.png
+│
+├── stats_mini_project.ipynb
 ├── Project_Assessment.pdf
-├── README.md
-└── screenshots/
-    ├── age_histogram.png
-    ├── monthly_spend_histogram.png
-    ├── boxplots.png
-    ├── correlation_heatmap.png
-    ├── scatter_plot.png
-    └── spending_analysis.png
+└── README.md
 ```
 
 ---
@@ -134,23 +147,16 @@ Customer-Insights-Statistical-Investigation/
 - Exploratory Data Analysis (EDA)
 - Descriptive Statistics
 - Data Visualization
-- Statistical Thinking
-- Customer Behavior Analysis
-- Business Analytics
+- Statistical Analysis
 - Python Programming
-- Data Interpretation
-
----
-
-## **📌 Business Outcome**
-
-The analysis provides valuable insights into customer demographics and spending behavior, enabling businesses to better understand customer segments, identify purchasing trends, and support data-driven decision-making.
+- Customer Analytics
+- Business Insights
 
 ---
 
 ## **⭐ Conclusion**
 
-This project demonstrates the practical application of **Python, Statistics, and Exploratory Data Analysis** to solve real-world business problems. It highlights the complete workflow from data exploration to insight generation, making it a strong portfolio project for aspiring **Data Analysts** and **Business Analysts**.
+This project demonstrates the practical application of **Python, Statistics, and Exploratory Data Analysis** to analyze customer behavior and generate meaningful business insights using real-world analytical techniques.
 
 ---
 
@@ -158,5 +164,4 @@ This project demonstrates the practical application of **Python, Statistics, and
 
 **Gagan Bawankule**
 
-Aspiring **Data Analyst** | Python | SQL | Excel | Power BI | Tableau | Statistics# Customer-Insights-Statistical-Investigation
-Exploratory Data Analysis (EDA) and Statistical Investigation of customer behavior using Python, Pandas, NumPy, Matplotlib, Seaborn, and SciPy to uncover spending patterns and demographic insights.
+Aspiring Data Analyst | Python | SQL | Excel | Power BI | Tableau | Statistics
